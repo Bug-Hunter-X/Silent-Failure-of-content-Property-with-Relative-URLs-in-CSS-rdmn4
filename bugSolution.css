@@ -1,0 +1,10 @@
+/* bugSolution.css */
+
+.my-element::before {
+  content: url('/images/icon.png'); /* Changed to absolute path */
+}
+
+/* or if you want to keep it relative but want to make sure the image exists in the same directory */
+.my-element::before{
+  content: url('icon.png');
+}
